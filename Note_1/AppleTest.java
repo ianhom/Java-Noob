@@ -3,6 +3,7 @@ class Apple{
     AppleSize size;
 }
 
+/* 一个源文件中可以有很多类，但只能有一个public类，且类名同文件名 */
 public class AppleTest{
     public static void main(String []args){
         Apple apple = new Apple();
