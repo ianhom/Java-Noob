@@ -6,7 +6,7 @@ public class TypeTest{
         System.out.println("最小值：Byte.MAX_VALUE="+ Byte.MAX_VALUE);
         System.out.println();
         
-        System.out.println("basic type: short binary:" + short.SIZE);
+        System.out.println("basic type: short binary:" + Short.SIZE);
         System.out.println("package class: java.lang.Short");
         System.out.println("Max. Short.MIN_VALUE=" + Short.MIN_VALUE);
         System.out.println("Max. Short.MAX_VALUE=" + Short.MAX_VALUE);
