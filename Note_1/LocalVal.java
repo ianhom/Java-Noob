@@ -1,8 +1,8 @@
-pubic class LocalVal{
+public class LocalVal{
     public void dogAge(){
         int age = 0;     /* age 是局部变量 */
         age = age + 8;
-        System.ou.println("The age of dog is " + age);
+        System.out.println("The age of dog is " + age);
     }
     
     public static void main(String args[]){
