@@ -27,26 +27,20 @@ public class Cal{     /* 类名 */
         System.out.println("a <= b = " + (a <= b));
         
         /* 逻辑运算 */
-        System.out.println("a & b = " + c );
-
-        c = a | b;       /* 61 = 0011 1101 */
-        System.out.println("a | b = " + c );
-
-        c = a ^ b;       /* 49 = 0011 0001 */
-        System.out.println("a ^ b = " + c );
-
-        c = ~a;          /*-61 = 1100 0011 */
-        System.out.println("~a = " + c );
-
-        c = a << 2;     /* 240 = 1111 0000 */
-        System.out.println("a << 2 = " + c );
-
-        c = a >> 2;     /* 15 = 1111 */
-        System.out.println("a >> 2  = " + c );
-  
-        c = a >>> 2;     /* 15 = 0000 1111 */
-        System.out.println("a >>> 2 = " + c );
-
+        c = a & b;       
+        System.out.println("a & b = " + c );  /* 按位与操作 */
+        c = a | b;      
+        System.out.println("a | b = " + c );  /* 按位或操作 */
+        c = a ^ b;    
+        System.out.println("a ^ b = " + c );  /* 按位亦或操作 */
+        c = ~a;       
+        System.out.println("~a = " + c );     /* 按位取反操作 */
+        c = a << 2;   
+        System.out.println("a << 2 = " + c ); /* 左移位操作 */
+        c = a >> 2;    
+        System.out.println("a >> 2  = " + c );/* 右移位操作 */
+        c = a >>> 2;     
+        System.out.println("a >>> 2 = " + c );/* 右移位操作，空位补零 */
     }
 }
 /* 普通运算基本与c类似 */
