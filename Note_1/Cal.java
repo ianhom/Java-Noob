@@ -5,6 +5,8 @@ public class Cal{     /* 类名 */
         int b = 10;
         int c = 4;
         int d = 5;
+        boolean e = true;
+        boolean f = false;
         
         /* 打印运算结果 */
         /* 算术运算 */
@@ -41,6 +43,10 @@ public class Cal{     /* 类名 */
         System.out.println("a >> 2  = " + c );/* 右移位操作 */
         c = a >>> 2;     
         System.out.println("a >>> 2 = " + c );/* 右移位操作，空位补零 */
+        
+        System.out.println("e && f = " + (e && f));
+        System.out.println("e || f = " + (e || f));
+        System.out.println("!(a && b) = " + !(a && b));
     }
 }
 /* 普通运算基本与c类似 */
