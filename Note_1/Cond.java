@@ -1,5 +1,5 @@
 public class Cond{
-    public String name = 'Ye';
+    public String name = "Ye";
     public static void main(String args[]){
         int a,b;
         boolean c = name instanceOf String;
